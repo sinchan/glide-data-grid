@@ -640,7 +640,7 @@ const DataGrid: React.FunctionComponent<Props> = p => {
                     drawX += 26;
                 }
 
-                ctx.font = "bold 14px Roboto, sans-serif";
+                ctx.font = "bold 14px Lato, sans-serif";
                 ctx.fillStyle = fillStyle;
                 ctx.fillText(c.title, drawX, headerHeight / 2 + 5);
                 ctx.globalAlpha = 1;
@@ -698,7 +698,7 @@ const DataGrid: React.FunctionComponent<Props> = p => {
             // we are going to set the font out here because setting this in FF is slow
             // for no obvious reason. It will get saved/restored as needed anyway. All cells
             // can depend on the default font being set and not need to set it themselves.
-            ctx.font = "13px Roboto, sans-serif";
+            ctx.font = "13px Lato, sans-serif";
             let y = headerHeight + translateY;
             while (y < height) {
                 let x = 0;

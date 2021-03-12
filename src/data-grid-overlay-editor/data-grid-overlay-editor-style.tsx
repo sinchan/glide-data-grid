@@ -24,7 +24,7 @@ export const DataGridOverlayEditorStyle = styled.div<Props>`
 
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
 
-    font-family: Roboto, sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 13px;
 
     padding: 3px 6.5px 2px;

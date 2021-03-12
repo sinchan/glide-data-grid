@@ -4,7 +4,7 @@ import { css } from "styled-components";
 const inputProps = css`
     font-size: 13px;
     line-height: 16px;
-    font-family: Roboto, sans-serif;
+    font-family: "Lato", sans-serif;
     color: ${p => p.theme.fgColorDark};
     padding: 0;
     margin: 0;
